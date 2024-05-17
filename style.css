@@ -1,0 +1,52 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#top {
+    text-align: center;
+    padding:10px;
+    background-color: rgb(1, 1, 1);
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(20, 20, 20)
+}
+
+#container {
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    width:500px;
+    height:500px;
+    border:none;
+    border-radius: 4px 4px 0px 0px;
+    padding:10px;
+    outline:none
+}
+
+#transcrever {
+    border:none;
+    border-radius: 0px 0px 4px 4px;
+    width:500px;
+    height:40px;
+    cursor:pointer
+}
+
+@media (max-width:768px) {
+    textarea {
+        width: 95vw
+    }
+
+    #transcrever {
+        width:95vw;
+    }
+}
