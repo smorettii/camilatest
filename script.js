@@ -13,7 +13,7 @@ button.addEventListener("click", () => {
             if (!(Number(sp[0]) && Number(sp[1]))) {
                 final = final + v + '\n'
             } else {
-                final = final + `\n`
+                final = final
             }
         }
     }
